@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caculator</title>
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="calculatorbody">
+        <div class="top">
+            <span>Calculator</span>
+            <div class="topside">
+                <span><i class="icofont-ui-remove"></i></span>
+                <span><i class="icofont-square"></i></span>
+                <span><i class="icofont-delete"></i></span>
+            </div>
+        </div>
+        <br>
+        <div class="topmid">
+            <div class="topmids"> 
+                <div><i class="icofont-navigation-menu"></i></div>
+                <span>Standard</span>
+            </div>
+            <div class="topsid">
+                <div><span class="material-symbols-outlined"> move </span></div>
+            </div>
+        </div>
+        <div id="print">
+            <h3 id="screen"></h3>
+            <h2 id="show"></h2>
+        </div>
+        <div>
+            <div class="firstrow1">
+                <button class="seven1" onclick="display(7)">7</button>
+                <button class="eight1" onclick="display(8)">8</button>
+                <button class="nine1" onclick="display(9)">9</button>
+                <button class="multiply1" onclick="operator('*')">*</button>
+            </div>
+            <div class="firstrow">
+                <button class="seven" onclick="display(4)">4</button>
+                <button class="eight" onclick="display(5)">5</button>
+                <button class="nine" onclick="display(6)">6</button>
+                <button class="multiply" onclick="operator('/')">/</button>
+            </div>
+            <div class="firstrow">
+                <button class="seven" onclick="display(1)">1</button>
+                <button class="eight" onclick="display(2)">2</button>
+                <button class="nine" onclick="display(3)">3</button>
+                <button class="multiply" onclick="operator('+')">+</button>
+            </div>
+            <div class="firstrow">
+                <button class="seven" onclick="display(0)">0</button>
+                <button class="eight" onclick="showResult(symbol)">=</button>
+                <button class="nine" onclick="clr()">AC</button>
+                <button class="multiply" onclick="operator('-')">-</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="calculator.js"></script>
+</html>

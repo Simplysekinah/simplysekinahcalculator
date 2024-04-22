@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.phoneframe{
+    width: 300px;
+    height: 560px;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: auto;
+}
+.display{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.display1{
+    width: 302px;
+    height: 200px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 0;
+    color: black;
+    justify-content: flex-end;
+    display: flex;
+}
+.firstrow{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+.seven{
+    width: 24%;
+    border-radius: 100%;
+    height: 90px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.eight{
+    width: 24%;
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: darkgray;
+}
+.nine{
+    width: 24%;
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.multiply{
+    width: 24%;
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: orange;
+    color: white;
+} 
+#div12{
+    background-color: brown;
+    color: white;
+}
+
+
+.calculatorbody{
+    width: 30%;
+    height: 560px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 10px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topside{
+    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-start;
+}
+.topmid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topmids{
+    display: flex;
+    gap: 10px;
+}
+#print{
+    width: 100%;
+    height: 25%;
+    background-color: rgba(255, 228, 196, 0.368);
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+h3{
+    display: flex;
+    justify-content: flex-end;
+   align-items: center;
+   padding-top: 20px;
+}
+h2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 30px;
+}
+.firstrow{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+.firstrow1{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+.seven{
+    width: 24%;
+    height: 60px;
+    justify-content: space-evenly;
+    margin-top: 22px;
+}
+.eight{
+    width: 24%;
+    height: 60px;
+    justify-content: space-evenly;
+    margin-top: 22px;
+}
+.nine{
+    width: 24%;
+    height: 60px;
+    justify-content: space-evenly;
+    margin-top: 22px;
+}
+.multiply{
+    width: 24%;
+    height: 60px;
+    justify-content: space-evenly;
+    margin-top: 22px;
+}
+.seven1{
+    width: 24%;
+    height: 60px;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+.eight1{
+    width: 24%;
+    height: 60px;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+.nine1{
+    width: 24%;
+    height: 60px;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+.multiply1{
+    width: 24%;
+    height: 60px;
+    justify-content: space-evenly;
+    margin-top: 5px;
+} 
+ #div55{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(0, 255, 255, 0.492);
+}
+
+
+#mty{
+    background-color: green;
+    border: 0;
+    width: 10%;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
