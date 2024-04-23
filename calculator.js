@@ -25,18 +25,26 @@ function showResult(symbol){
     if (symbol === '+'){
         result = Number(secondVal) + Number(firstVal)
         show.innerHTML = result
+        firstVal = result
+        onTop.innerHTML = result
     }
     else if (symbol === '-'){
         result = Number(secondVal) - Number(firstVal)
         show.innerHTML = result
+        firstVal = result
+        onTop.innerHTML = result
     }
     else if (symbol === '*'){
         result = Number(secondVal) * Number(firstVal)
         show.innerHTML = result
+        firstVal = result
+        onTop.innerHTML = result
     }
     else if (symbol === '/'){
         result = Number(secondVal) / Number(firstVal)
         show.innerHTML = result
+        firstVal = result
+        onTop.innerHTML = result
     }
 }
 
